@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="me.omidh.gradientswitchview.MainActivity">
+
+<me.omidh.gradientswtichview.GradientSwitchView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_margin="16dp"
+    app:gsw_animDuration="500"
+    app:gsw_beginText="Accept"
+    app:gsw_endText="Decline"
+    app:gsw_textColor="#fff"
+    app:gsw_textSize="7sp"
+    app:gsw_solidBackgroundColor="#3FbbB5"
+    app:gsw_circleColor="#ffb300"
+    app:gsw_circleIconColor="#fff"
+    app:gsw_circleIcon="@drawable/ic_chevron_right_vector"
+    app:gsw_beginGradientColor="#FF4081"
+    app:gsw_endGradientColor="#4F1FaF"/>
+
+
+</FrameLayout>

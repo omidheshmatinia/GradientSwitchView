@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GradientSwitchView">
+        <attr name="gsw_beginText" format="string"/>
+        <attr name="gsw_endText" format="string"/>
+        <attr name="gsw_beginGradientColor" format="color"/>
+        <attr name="gsw_endGradientColor" format="color"/>
+        <attr name="gsw_middleGradientColor" format="color"/>
+        <attr name="gsw_solidBackgroundColor" format="color"/>
+        <attr name="gsw_textColor" format="color"/>
+        <attr name="gsw_textSize" format="dimension"/>
+        <attr name="gsw_circleIconColor" format="color"/>
+        <attr name="gsw_circleIcon" format="reference"/>
+        <attr name="gsw_animDuration" format="integer"/>
+        <attr name="gsw_typeface" format="string"/>
+        <attr name="gsw_circleColor" format="color"/>
+        <attr name="gsw_changeTextWithAnim" format="boolean"/>
+    </declare-styleable>
+</resources>
